@@ -208,4 +208,4 @@ def excluir_postagem(autor, id_postagem):
     
 
 
-app.run(port=5000, host='localhost', debug=True)
+app.run(host='0.0.0.0', port=5000, debug=False)
